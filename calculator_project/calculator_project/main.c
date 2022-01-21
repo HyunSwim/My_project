@@ -7,7 +7,7 @@ char c;
 
 // input 종범 8번째 줄
 void input() {
-
+	
 }
 
 
@@ -19,7 +19,7 @@ void input() {
 
 // 더하기 윤선 20번째 줄
 int plus() {
-
+	printf("%d", a + b);
 }
 
 
@@ -46,8 +46,8 @@ int minus() {
 
 
 // 곱하기 종학 48번째 줄
-int multiple() {
-
+int multiple(int a, int b) {
+	return(a * b);
 }
 
 
@@ -61,7 +61,7 @@ int multiple() {
 
 // 나누기 지민 62번째
 int dis() {
-
+	return a / b;
 }
 
 
@@ -79,8 +79,8 @@ int dis() {
 
 
 // 창기 81번째 줄
-void print() {
-
+void print(int answer) {
+	printf("%d", answer)
 }
 
 
