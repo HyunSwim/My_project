@@ -19,7 +19,7 @@ void input() {
 
 // 더하기 윤선 20번째 줄
 int plus() {
-
+	printf("%d", a + b);
 }
 
 
