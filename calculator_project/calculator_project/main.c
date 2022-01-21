@@ -3,11 +3,11 @@
 // µ¡¼À, »¬¼À, °ö¼À, ³ª´°¼À, ÀÔ·Â, Ãâ·Â
 
 int a, b;
-char c;
+int c;
 
 // input Á¾¹ü 8¹øÂ° ÁÙ
 void input() {
-	
+	scanf_s("%d %d %d", &a, &b, &c);
 }
 
 
@@ -102,16 +102,16 @@ int main() {
 
 	input(); // a, b, c : +, -, *, /
 	int answer;
-	if (c == "+") {
+	if (c == 1) {
 		answer = plus();
 	}
-	else if (c == '-') {
+	else if (c == 2) {
 		answer = minus();
 	}
-	else if (c == '*') {
+	else if (c == 3) {
 		answer = multiple();
 	}
-	else if (c == '/') {
+	else if (c == 4) {
 		answer = dis();
 	}
 
