@@ -61,7 +61,7 @@ int multiple() {
 
 // 나누기 지민 62번째
 int dis() {
-
+	return a / b;
 }
 
 
