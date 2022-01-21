@@ -46,8 +46,8 @@ int minus() {
 
 
 // 곱하기 종학 48번째 줄
-int multiple() {
-
+int multiple(int a, int b) {
+	return(a * b);
 }
 
 
