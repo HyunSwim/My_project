@@ -19,7 +19,7 @@ void input() {
 
 // 더하기 윤선 20번째 줄
 int plus() {
-	printf("%d", a + b);
+	return a + b;
 }
 
 
@@ -46,7 +46,7 @@ int minus() {
 
 
 // 곱하기 종학 48번째 줄
-int multiple(int a, int b) {
+int multiple() {
 	return(a * b);
 }
 
