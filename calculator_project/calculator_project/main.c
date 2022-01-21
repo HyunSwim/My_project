@@ -7,7 +7,7 @@ char c;
 
 // input 종범 8번째 줄
 void input() {
-
+	
 }
 
 
@@ -79,8 +79,8 @@ int dis() {
 
 
 // 창기 81번째 줄
-void print() {
-
+void print(int answer) {
+	printf("%d", answer)
 }
 
 
