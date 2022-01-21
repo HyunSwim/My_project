@@ -31,7 +31,7 @@ int plus() {
 
 // 빼기 상호 32번째 줄
 int minus() {
-
+	return a - b;
 }
 
 
